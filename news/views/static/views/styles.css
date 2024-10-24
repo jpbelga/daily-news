@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: 'Georgia', serif; /* Classic newspaper font */
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #fff; /* Changed to white for better contrast */
+}
+
+.news-link {
+    color: #007bff; /* Bootstrap primary link color */
+}
+
+.news-link:hover {
+    color: #0056b3; /* Darker color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    background-color: #343a40; /* Dark background for header */
+}
+
+.card-body {
+    background-color: white; /* White background for the card */
+}
+
+.list-group-item {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+}
+
+footer {
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
